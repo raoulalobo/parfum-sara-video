@@ -29,6 +29,7 @@ import { IntroScene } from "./components/IntroScene";
 import { ProductShowcase, ShowcaseTextItem } from "./components/ProductShowcase";
 import { OutroScene } from "./components/OutroScene";
 import { BackgroundGradient } from "./components/BackgroundGradient";
+import { SparklingParticles } from "./components/SparklingParticles";
 
 /**
  * Type des props de la composition
@@ -103,6 +104,10 @@ export const ParfumSaraVideo: React.FC<ParfumSaraVideoProps> = ({
 
       {/* Fond dégradé animé - visible pendant toute la vidéo */}
       <BackgroundGradient />
+
+      {/* Particules scintillantes dorées - effet de luxe/premium
+          40 particules par défaut, flottent vers le haut avec scintillement */}
+      <SparklingParticles particleCount={50} />
 
       {/* === Séquence de scènes avec transitions fluides ===
           TransitionSeries gère automatiquement le timing et les transitions */}
