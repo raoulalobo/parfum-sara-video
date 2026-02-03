@@ -89,9 +89,11 @@ export const OutroScene: React.FC<OutroSceneProps> = ({
   };
 
   // Style du nom de marque - très grand et élégant
+  // fontSize réduit de 140 à 100 pour éviter que les noms longs (ex: "CHOGAN" avec letterSpacing)
+  // ne débordent du cadre vidéo de 720px de largeur
   const brandStyle: React.CSSProperties = {
     fontFamily: "'Georgia', serif",
-    fontSize: 140,
+    fontSize: 100,
     fontWeight: 300,
     letterSpacing: "0.25em",
     color: "#D4A574",

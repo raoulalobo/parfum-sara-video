@@ -83,10 +83,10 @@ export const IntroScene: React.FC<IntroSceneProps> = ({ brandName, tagline }) =>
     padding: "0 40px",
   };
 
-  // Style du nom de marque - Typographie élégante et grande
+  // Style du nom de marque - Typographie élégante et grande (100px pour éviter débordement sur 720px)
   const brandStyle: React.CSSProperties = {
     fontFamily: "'Georgia', 'Times New Roman', serif",
-    fontSize: 120,
+    fontSize: 100,
     fontWeight: 300,
     letterSpacing: "0.3em",
     color: "#D4A574", // Or rosé

@@ -52,7 +52,7 @@ export const RemotionRoot: React.FC = () => {
           // === Propriétés personnalisables pour la vidéo ===
 
           // Nom de la marque affiché dans l'intro et l'outro
-          brandName: "SARA",
+          brandName: "CHOGAN",
 
           // Slogan/tagline affiché sous le nom de marque dans l'intro
           tagline: "L'essence de l'élégance",
